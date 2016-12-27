@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2337DBC1E122E2F001850BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DBB1E122E2F001850BA /* AppDelegate.swift */; };
+		E2337DBE1E122E2F001850BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DBD1E122E2F001850BA /* ViewController.swift */; };
+		E2337DC11E122E2F001850BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2337DBF1E122E2F001850BA /* Main.storyboard */; };
+		E2337DC41E122E2F001850BA /* Simple_Download_Manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2337DC21E122E2F001850BA /* Simple_Download_Manager.xcdatamodeld */; };
+		E2337DC61E122E2F001850BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2337DC51E122E2F001850BA /* Assets.xcassets */; };
+		E2337DC91E122E2F001850BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2337DC71E122E2F001850BA /* LaunchScreen.storyboard */; };
+		E2337DD41E122E2F001850BA /* Simple_Download_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DD31E122E2F001850BA /* Simple_Download_ManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2337DD01E122E2F001850BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2337DB01E122E2F001850BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2337DB71E122E2F001850BA;
+			remoteInfo = "Simple Download Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2337DB81E122E2F001850BA /* Simple Download Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Download Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2337DBB1E122E2F001850BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2337DBD1E122E2F001850BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2337DC01E122E2F001850BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2337DC31E122E2F001850BA /* Simple_Download_Manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Simple_Download_Manager.xcdatamodel; sourceTree = "<group>"; };
+		E2337DC51E122E2F001850BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2337DC81E122E2F001850BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2337DCA1E122E2F001850BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2337DCF1E122E2F001850BA /* Simple Download ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Download ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2337DD31E122E2F001850BA /* Simple_Download_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Download_ManagerTests.swift; sourceTree = "<group>"; };
+		E2337DD51E122E2F001850BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2337DB51E122E2F001850BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2337DCC1E122E2F001850BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2337DAF1E122E2F001850BA = {
+			isa = PBXGroup;
+			children = (
+				E2337DBA1E122E2F001850BA /* Simple Download Manager */,
+				E2337DD21E122E2F001850BA /* Simple Download ManagerTests */,
+				E2337DB91E122E2F001850BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2337DB91E122E2F001850BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2337DB81E122E2F001850BA /* Simple Download Manager.app */,
+				E2337DCF1E122E2F001850BA /* Simple Download ManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2337DBA1E122E2F001850BA /* Simple Download Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E2337DBB1E122E2F001850BA /* AppDelegate.swift */,
+				E2337DBD1E122E2F001850BA /* ViewController.swift */,
+				E2337DBF1E122E2F001850BA /* Main.storyboard */,
+				E2337DC51E122E2F001850BA /* Assets.xcassets */,
+				E2337DC71E122E2F001850BA /* LaunchScreen.storyboard */,
+				E2337DCA1E122E2F001850BA /* Info.plist */,
+				E2337DC21E122E2F001850BA /* Simple_Download_Manager.xcdatamodeld */,
+			);
+			path = "Simple Download Manager";
+			sourceTree = "<group>";
+		};
+		E2337DD21E122E2F001850BA /* Simple Download ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2337DD31E122E2F001850BA /* Simple_Download_ManagerTests.swift */,
+				E2337DD51E122E2F001850BA /* Info.plist */,
+			);
+			path = "Simple Download ManagerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2337DB71E122E2F001850BA /* Simple Download Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2337DD81E122E2F001850BA /* Build configuration list for PBXNativeTarget "Simple Download Manager" */;
+			buildPhases = (
+				E2337DB41E122E2F001850BA /* Sources */,
+				E2337DB51E122E2F001850BA /* Frameworks */,
+				E2337DB61E122E2F001850BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Download Manager";
+			productName = "Simple Download Manager";
+			productReference = E2337DB81E122E2F001850BA /* Simple Download Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2337DCE1E122E2F001850BA /* Simple Download ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2337DDB1E122E2F001850BA /* Build configuration list for PBXNativeTarget "Simple Download ManagerTests" */;
+			buildPhases = (
+				E2337DCB1E122E2F001850BA /* Sources */,
+				E2337DCC1E122E2F001850BA /* Frameworks */,
+				E2337DCD1E122E2F001850BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2337DD11E122E2F001850BA /* PBXTargetDependency */,
+			);
+			name = "Simple Download ManagerTests";
+			productName = "Simple Download ManagerTests";
+			productReference = E2337DCF1E122E2F001850BA /* Simple Download ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2337DB01E122E2F001850BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tom Metzger";
+				TargetAttributes = {
+					E2337DB71E122E2F001850BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U7RS77BY9N;
+						ProvisioningStyle = Automatic;
+					};
+					E2337DCE1E122E2F001850BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U7RS77BY9N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2337DB71E122E2F001850BA;
+					};
+				};
+			};
+			buildConfigurationList = E2337DB31E122E2F001850BA /* Build configuration list for PBXProject "Simple Download Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2337DAF1E122E2F001850BA;
+			productRefGroup = E2337DB91E122E2F001850BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2337DB71E122E2F001850BA /* Simple Download Manager */,
+				E2337DCE1E122E2F001850BA /* Simple Download ManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2337DB61E122E2F001850BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2337DC91E122E2F001850BA /* LaunchScreen.storyboard in Resources */,
+				E2337DC61E122E2F001850BA /* Assets.xcassets in Resources */,
+				E2337DC11E122E2F001850BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2337DCD1E122E2F001850BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2337DB41E122E2F001850BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2337DBE1E122E2F001850BA /* ViewController.swift in Sources */,
+				E2337DC41E122E2F001850BA /* Simple_Download_Manager.xcdatamodeld in Sources */,
+				E2337DBC1E122E2F001850BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2337DCB1E122E2F001850BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2337DD41E122E2F001850BA /* Simple_Download_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2337DD11E122E2F001850BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2337DB71E122E2F001850BA /* Simple Download Manager */;
+			targetProxy = E2337DD01E122E2F001850BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2337DBF1E122E2F001850BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2337DC01E122E2F001850BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2337DC71E122E2F001850BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2337DC81E122E2F001850BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2337DD61E122E2F001850BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2337DD71E122E2F001850BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2337DD91E122E2F001850BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U7RS77BY9N;
+				INFOPLIST_FILE = "Simple Download Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommetzger.Simple-Download-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2337DDA1E122E2F001850BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U7RS77BY9N;
+				INFOPLIST_FILE = "Simple Download Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommetzger.Simple-Download-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E2337DDC1E122E2F001850BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U7RS77BY9N;
+				INFOPLIST_FILE = "Simple Download ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommetzger.Simple-Download-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Download Manager.app/Simple Download Manager";
+			};
+			name = Debug;
+		};
+		E2337DDD1E122E2F001850BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U7RS77BY9N;
+				INFOPLIST_FILE = "Simple Download ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommetzger.Simple-Download-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Download Manager.app/Simple Download Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2337DB31E122E2F001850BA /* Build configuration list for PBXProject "Simple Download Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2337DD61E122E2F001850BA /* Debug */,
+				E2337DD71E122E2F001850BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2337DD81E122E2F001850BA /* Build configuration list for PBXNativeTarget "Simple Download Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2337DD91E122E2F001850BA /* Debug */,
+				E2337DDA1E122E2F001850BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2337DDB1E122E2F001850BA /* Build configuration list for PBXNativeTarget "Simple Download ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2337DDC1E122E2F001850BA /* Debug */,
+				E2337DDD1E122E2F001850BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2337DC21E122E2F001850BA /* Simple_Download_Manager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2337DC31E122E2F001850BA /* Simple_Download_Manager.xcdatamodel */,
+			);
+			currentVersion = E2337DC31E122E2F001850BA /* Simple_Download_Manager.xcdatamodel */;
+			path = Simple_Download_Manager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2337DB01E122E2F001850BA /* Project object */;
+}
