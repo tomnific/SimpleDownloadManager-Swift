@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E2337DBC1E122E2F001850BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DBB1E122E2F001850BA /* AppDelegate.swift */; };
-		E2337DBE1E122E2F001850BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DBD1E122E2F001850BA /* ViewController.swift */; };
 		E2337DC11E122E2F001850BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2337DBF1E122E2F001850BA /* Main.storyboard */; };
 		E2337DC41E122E2F001850BA /* Simple_Download_Manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2337DC21E122E2F001850BA /* Simple_Download_Manager.xcdatamodeld */; };
 		E2337DC61E122E2F001850BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2337DC51E122E2F001850BA /* Assets.xcassets */; };
 		E2337DC91E122E2F001850BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2337DC71E122E2F001850BA /* LaunchScreen.storyboard */; };
 		E2337DD41E122E2F001850BA /* Simple_Download_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DD31E122E2F001850BA /* Simple_Download_ManagerTests.swift */; };
+		E2337DE21E13729F001850BA /* FileBrowserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DE11E13729F001850BA /* FileBrowserTableViewController.swift */; };
+		E2337DE41E137353001850BA /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DE31E137353001850BA /* WebBrowserViewController.swift */; };
+		E2337DEC1E14D6E3001850BA /* FileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2337DEB1E14D6E3001850BA /* FileTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,6 @@
 /* Begin PBXFileReference section */
 		E2337DB81E122E2F001850BA /* Simple Download Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Download Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2337DBB1E122E2F001850BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2337DBD1E122E2F001850BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2337DC01E122E2F001850BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2337DC31E122E2F001850BA /* Simple_Download_Manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Simple_Download_Manager.xcdatamodel; sourceTree = "<group>"; };
 		E2337DC51E122E2F001850BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +39,9 @@
 		E2337DCF1E122E2F001850BA /* Simple Download ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Download ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2337DD31E122E2F001850BA /* Simple_Download_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Download_ManagerTests.swift; sourceTree = "<group>"; };
 		E2337DD51E122E2F001850BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2337DE11E13729F001850BA /* FileBrowserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileBrowserTableViewController.swift; sourceTree = "<group>"; };
+		E2337DE31E137353001850BA /* WebBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBrowserViewController.swift; sourceTree = "<group>"; };
+		E2337DEB1E14D6E3001850BA /* FileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				E2337DBB1E122E2F001850BA /* AppDelegate.swift */,
-				E2337DBD1E122E2F001850BA /* ViewController.swift */,
+				E2337DE11E13729F001850BA /* FileBrowserTableViewController.swift */,
+				E2337DEB1E14D6E3001850BA /* FileTableViewCell.swift */,
+				E2337DE31E137353001850BA /* WebBrowserViewController.swift */,
 				E2337DBF1E122E2F001850BA /* Main.storyboard */,
 				E2337DC51E122E2F001850BA /* Assets.xcassets */,
 				E2337DC71E122E2F001850BA /* LaunchScreen.storyboard */,
@@ -204,9 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2337DBE1E122E2F001850BA /* ViewController.swift in Sources */,
 				E2337DC41E122E2F001850BA /* Simple_Download_Manager.xcdatamodeld in Sources */,
 				E2337DBC1E122E2F001850BA /* AppDelegate.swift in Sources */,
+				E2337DEC1E14D6E3001850BA /* FileTableViewCell.swift in Sources */,
+				E2337DE41E137353001850BA /* WebBrowserViewController.swift in Sources */,
+				E2337DE21E13729F001850BA /* FileBrowserTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +424,7 @@
 				E2337DDA1E122E2F001850BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2337DDB1E122E2F001850BA /* Build configuration list for PBXNativeTarget "Simple Download ManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				E2337DDD1E122E2F001850BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
